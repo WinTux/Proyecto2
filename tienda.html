@@ -1,0 +1,354 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mieleria de Don Mielda</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <style>
+        section{
+            padding: 60px 0;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-md navbar-light fixed-top"><!--bg-danger-->
+        <div class="container-xxl">
+            <a href="#introduccion" class="navbar-brand">
+                
+                <span class="fw-bold text-secondary"><i class="bi bi-yelp"></i>Mi-Mielda</span>
+            </a>
+            <button class="navbar-toggler" type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#barra-principal"
+            aria-expanded="false"
+            aria-controls="#barra-principal"
+            aria-label="Navegacion toggle">
+            
+                <span class="navbar-toggler-icon">
+
+                </span>
+            </button><!-- creo sin # -->
+            <div class="collapse navbar-collapse justify-content-end align-center" id="barra-principal">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="#comentarios" class="nav-link">Mira lo que comentan de nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#acerca" class="nav-link">Acerca de Don Mielda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contacto" class="nav-link">Contactate con Don Mielda</a>
+                    </li>
+                    <li class="nav-item d-md-none">
+                        <a href="#precios" class="nav-link">Planes de pago</a>
+                    </li>
+                    <li class="nav-item ms-2 d-none d-md-inline">
+                        <a href="#precios" class="btn btn-secondary">Planes de pago</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="introduccion">
+        <div class="container-lg">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-md-5 text-center text-md-start">
+                    <h1>
+                        <div class="display-2">
+                            Miel con stevia
+                        </div>
+                        <div class="display-5 text-muted">
+                            Esta miel es dulce por defecto pero se le agrega stevia para mas placer.
+                        </div>
+                    </h1>
+                    <p class="lead my-4 text-muted">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa temporibus veritatis optio. Repudiandae ea hic dolore expedita iure, asperiores eius, voluptate iusto accusantium reprehenderit unde.
+                    </p>
+                    <a href="#precios" class="btn btn-secondary btn-lg">Conocer precios</a>
+                </div>
+                <div class="col-md-5 text-center d-none d-md-block">
+                    <img src="/Recursos/miel01.webp" alt="Miel sabrosona" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="precios" class="bg-light mt-5">
+        <div class="container-lg">
+            <div class="text-center">
+                <h2>Planes de pago</h2>
+                <p class="lead text-muted">Elija un plan de pago de acuerdo a su pobreza</p>
+            </div>
+            <div class="row my-5 align-items-center justify-content-center g-3">
+                <div class="col-8 col-lg-4 col-xl-3">
+                    <div class="card border-0">
+                        <div class="card-body text-center py-4">
+                            <h4 class="card-title">Economico</h4>
+                            <p class="lead card-subtitle">Para tus bolsillos</p>
+                            <p class="display-5 my-4 text-primary fw-bold">$us. 5</p>
+                            <p class="card-text mx-5 text-muted d-none d-lg-block">
+                                Esta miel fue almacenada desde el año 2006, no hay garantias de conservar su sabor pero ningun cientifico dijo que no se puede comer, tampoco preguntamos.
+                            </p>
+                            <a href="#" class="btn btn-outline-primary btn-lg mt-3">Comprarlo</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-9 col-lg-4">
+                    <div class="card border-primary border-2">
+                        <div class="card-header text-center text-primary">Mas popular!!</div>
+                        <div class="card-body text-center py-4">
+                            <h4 class="card-title">Estandar</h4>
+                            <p class="lead card-subtitle">Para tus bolsillos</p>
+                            <p class="display-5 my-4 text-primary fw-bold">$us. 15</p>
+                            <p class="card-text mx-5 text-muted d-none d-lg-block">
+                                La miel que comia tu mama
+                            </p>
+                            <a href="#" class="btn btn-primary btn-lg mt-3">Comprarlo</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-8 col-lg-4 col-xl-3">
+                    <div class="card border-0">
+                        <div class="card-body text-center py-4">
+                            <h4 class="card-title">Resolvedor</h4>
+                            <p class="lead card-subtitle">Para tus bolsillos</p>
+                            <p class="display-5 my-4 text-primary fw-bold">$us. 50</p>
+                            <p class="card-text mx-5 text-muted d-none d-lg-block">
+                                Esta miel fue almacenada desde el año 2006, no hay garantias de conservar su sabor pero ningun cientifico dijo que no se puede comer, tampoco preguntamos.
+                            </p>
+                            <a href="#" class="btn btn-outline-primary btn-lg mt-3">Comprarlo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="acerca">
+        <div class="container-md">
+            <div class="text-center">
+                <h2>Especificaciones</h2>
+                <p class="lead text-muted">Las especificaciones de nuestras mieles.</p>
+            </div>
+            <div class="row my-5 g-5 justify-content-around align-items-center">
+                <div class="col-6 col-lg-4">
+                    <img src="/Recursos/abeja.png" alt="abeja gato" class="img-fluid">
+                </div>
+                <div class="col-lg-6">
+                    <div class="accordion" id="partes">
+                        <div class="accordion-item">
+                            <h2 id="heading-1" class="accordion-header">
+                                <button class="accordion-button" type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#parte-1"
+                                aria-expanded="true"
+                                aria-controls="parte-1"
+                                >
+                                    Sobre las abejas
+                                </button>
+                            </h2>
+                            <div id="parte-1" class="accordion-collapse collapse show"
+                            aria-labelledby="heading-1"
+                            data-bs-parent="#partes">
+                                <div class="accordion-body">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam reiciendis rerum dolorem, accusamus ipsa mollitia dolores odio id perspiciatis delectus?</p>
+                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta, nihil nisi! Aperiam facere, laboriosam delectus quisquam iusto architecto ab eaque.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 id="heading-2" class="accordion-header">
+                                <button class="accordion-button" type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#parte-2"
+                                aria-expanded="true"
+                                aria-controls="parte-2"
+                                >
+                                    Sobre la mielda
+                                </button>
+                            </h2>
+                            <div id="parte-2" class="accordion-collapse collapse"
+                            aria-labelledby="heading-2"
+                            data-bs-parent="#partes">
+                                <div class="accordion-body">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam reiciendis rerum dolorem, accusamus ipsa mollitia dolores odio id perspiciatis delectus?</p>
+                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta, nihil nisi! Aperiam facere, laboriosam delectus quisquam iusto architecto ab eaque.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 id="heading-3" class="accordion-header">
+                                <button class="accordion-button" type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#parte-3"
+                                aria-expanded="true"
+                                aria-controls="parte-3"
+                                >
+                                    Sobre los mieleros
+                                </button>
+                            </h2>
+                            <div id="parte-3" class="accordion-collapse collapse"
+                            aria-labelledby="heading-3"
+                            data-bs-parent="#partes">
+                                <div class="accordion-body">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam reiciendis rerum dolorem, accusamus ipsa mollitia dolores odio id perspiciatis delectus?</p>
+                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta, nihil nisi! Aperiam facere, laboriosam delectus quisquam iusto architecto ab eaque.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="comentarios" class="bg-light">
+        <div class="container-lg">
+            <div class="text-center">
+                <h2>Comentarios sobre nuestras mieles</h2>
+                <p class="lead">Las personas opinan sobre estos manjares</p>
+            </div>
+            <div class="row justify-content-center my-5">
+                <div class="col-lg-8">
+                    <div class="list-group">
+                        <div class="list-group-item py-3">
+                            <h5 class="mb-1">Compra sin arrepentimientos</h5>
+                            <div class="pb-2">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                            <p class="mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus qui velit dolores quas dolorem maiores voluptas modi accusantium perferendis obcaecati.</p>
+                            <small>Comentario de Pepe</small>
+                        </div>
+                        <div class="list-group-item py-3">
+                            <h5 class="mb-1">Conozco al dueño</h5>
+                            <div class="pb-2">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star"></i>
+                                <i class="bi bi-star"></i>
+                                <i class="bi bi-star"></i>
+                                <i class="bi bi-star"></i>
+                            </div>
+                            <p class="mb-1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo, nihil cumque maiores nemo perferendis ex, consequatur esse, praesentium ipsa error laboriosam vitae!</p>
+                            <small>Comentario de Vani</small>
+                        </div>
+                        <div class="list-group-item py-3">
+                            <h5 class="mb-1">Estaba envenenado</h5>
+                            <div class="pb-2">
+                                <i class="bi bi-star-half"></i>
+                                <i class="bi bi-star"></i>
+                                <i class="bi bi-star"></i>
+                                <i class="bi bi-star"></i>
+                                <i class="bi bi-star"></i>
+                            </div>
+                            <p class="mb-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur alias reiciendis mollitia ut aliquam molestias debitis ea eius non. Obcaecati, sequi.</p>
+                            <small>Comentario de Ana</small>
+                        </div>
+                        <div class="list-group-item py-3">
+                            <h5 class="mb-1">Genial</h5>
+                            <div class="pb-2">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-half"></i>
+                            </div>
+                            <p class="mb-1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error ad nam minima nulla! Dolorem modi possimus velit excepturi, asperiores sapiente.</p>
+                            <small>Comentario de Ramiro</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contacto">
+        <div class="container-lg">
+            <div class="text-center">
+                <h2>Contactate con nosotros</h2>
+                <p class="lead">Tienes alguna pregunta? Llena el formulario de contacto</p>
+            </div>
+            <div class="row justify-content-center my-5">
+                <div class="col-lg-6">
+                    <form action="">
+                        <label for="correito" class="form-label">Correo:</label>
+                        <div class="mb-4 input-group">
+                            <span class="input-group-text">
+                                <i class="bi bi-envelope-fill"></i>
+                            </span>
+                            <input type="email" class="form-control" id="correito" placeholder="Ej. pepe@gmail.com">
+                        </div>
+                        <label for="nom" class="form-label">Nombre:</label>
+                        <div class="mb-4 input-group">
+                            <span class="input-group-text">
+                                <i class="bi bi-person-fill"></i>
+                            </span>
+                            <input type="text" class="form-control" id="nom">
+                        </div>
+                        
+                        <label for="asunto" class="form-label">Cual es su duda?</label>
+                        <div class="mb-4 input-group">
+                            <span class="input-group-text">
+                                <i class="bi bi-question-square-fill"></i>
+                            </span>
+                            <select name="" id="asunto" class="form-select">
+                                <option value="consultaTipo1">Sobre la descripcion</option>
+                                <option value="consultaTipo2">Reclamo</option>
+                                <option value="consultaTipo3">Otra consulta</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-floating mb-4 bt-5">
+                            <textarea class="form-control" name="" id="consulta" style="height: 150px;"></textarea>
+                            <label for="consulta">Tu consulta...</label>
+                        </div>
+                        <div class="mb-4 text-center">
+                            <button type="submit" class="btn btn-primary">Enviar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="bg-light">
+        <div class="container">
+            <div class="text-center">
+                <h2>Mantente endulzado</h2>
+                <p class="lead">Suscribete a nuestro envio de miel diaria</p>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-8 text-center">
+                    <p class="text-muted-my-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae voluptatum dolores eos recusandae corrupti accusantium.</p>
+                    <button class="btn btn-primary"
+                    data-bs-toggle="modal"
+                    data-bs-target="#modal-suscripcion">Suscribete</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div id="modal-suscripcion" class="modal fade"
+    tabindex="-1" aria-labelledby="modal-titulo" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 id="modal-titulo" class="modal-title">Suscribete a don Mielda</h5>
+                    <button type="button" class="btn-close"
+                    data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error atque consequuntur voluptates labore! Impedit, animi.</p>
+                    <label for="modal-correo" class="form-label">Su correo por favor</label>
+                    <input type="email" id="modal-correo" class="form-control">
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-primary">Suscribirse</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
